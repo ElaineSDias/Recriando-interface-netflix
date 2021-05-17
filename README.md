@@ -1,2 +1,2 @@
 # Recriando-interface-netflix
-recriando a interface netflix usando HTML5, CSS3 e javascript
+Fiz uma pagina similar de nome "netmusic", usando HTML5, CSS3, javascript e jquery.
