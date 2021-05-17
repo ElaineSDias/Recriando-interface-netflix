@@ -1,0 +1,62 @@
+:root {
+  --preto: #141414;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--preto);
+}
+header .logo {
+  margin-left: 10px;
+  color: red;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+main .conteudo {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: groove 6px #fff;
+}
+main nav li {
+  color: #fff;
+  margin-left: 30px;
+  padding: 4px;
+}
+
+.video {
+  margin: 20px 0 20px 90px;
+  border: groove 6px #fff;
+  max-height: 520px;
+}
+
+.lista {
+  margin: 20px 0 20px 30px;
+  border: groove 6px #fff;
+  max-height: 520px;
+  border-bottom: #fff solid 2px;
+  overflow-y: scroll;
+  height: 520px;
+}
